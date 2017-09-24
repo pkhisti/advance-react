@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add express ejs
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/pkhisti/Library/Android/sdk/tools:/Users/pkhisti/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  0.22.0
+
+Node version: 
+  7.7.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "advance-react",
+    "version": "1.0.0",
+    "description": "Advance react",
+    "main": "lib/server.js",
+    "repository": "jscomplete/advance-react",
+    "author": "Priya Khisti",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.intuit.net registry.npmjs.intuit.net:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
